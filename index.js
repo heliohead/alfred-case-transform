@@ -25,5 +25,11 @@ alfy.output([
     arg: _.snakeCase(alfy.input),
     subtitle: 'snake_case',
     icon: { path: 'icons/snake_case.png' }
+  },
+  {
+    title: _.kebabCase(alfy.input),
+    arg: _.kebabCase(alfy.input),
+    subtitle: 'kebab-case',
+    icon: { path: 'icons/kebab-case.png' }
   }
 ]);
