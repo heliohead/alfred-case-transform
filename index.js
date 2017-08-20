@@ -27,6 +27,12 @@ alfy.output([
     icon: { path: 'icons/snake_case.png' }
   },
   {
+    title: _.snakeCase(alfy.input).toUpperCase(),
+    arg: _.snakeCase(alfy.input).toUpperCase(),
+    subtitle: 'SCREAMING_SNAKE_CASE',
+    icon: { path: 'icons/SCREAMING_SNAKE_CASE.png' }
+  },
+  {
     title: _.kebabCase(alfy.input),
     arg: _.kebabCase(alfy.input),
     subtitle: 'kebab-case',
